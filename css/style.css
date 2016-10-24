@@ -1,0 +1,55 @@
+
+.announcements{
+	position:relative;
+}
+
+.navbar-default{
+	background-color:#0f3067;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.navbar-default .navbar-right > li > a{
+	color: #e4af2c;
+}
+.navbar-default .navbar-right > li > a:hover {
+	color: #d5852b;
+}
+
+.navbar-brand{
+	color: #21c3f1 !important;
+}
+
+
+@font-face {
+        font-family: "Avenir";
+        src: url("fonts/avenir.otf");
+
+        -------------
+    }
+
+body {
+  font-family:"Avenir";
+  cursor:default;
+  background-color:#fff;
+  color: #333;
+  font-size: 14px;
+}
+
+#footer {
+	background:transparent url(/images/footer.png) repeat-x 0 0;
+	background-size: 100% 100%;
+	background-color:#08265c;
+    position:fixed;
+    bottom:0;
+    height: 300px;
+    width: 100%
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.container {
+	padding-top: 30px;
+}
